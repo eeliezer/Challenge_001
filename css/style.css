@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(240, 240, 240);
+}
+
+footer{
+    margin-top: 3%;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#cookies-button{
+    background-color: #ed6755;
+    box-shadow: 0 8px 16px 0 rgb(237, 103, 85,0.5), 0 6px 20px 0 rgb(237, 103, 85,0.19);
+}
+
+#session-button{
+    background-color: #2c3e50;
+    box-shadow: 0 8px 16px 0 rgb(44, 62, 80, 0.5), 0 6px 20px 0 rgb(44, 62, 80, 0.19);
+}
+
+#cookies-button:hover {
+    background-color: #c75748;
+    scale: 1.1;
+    transition: all 0.5s ease;
+}
+
+#session-button:hover {
+    background-color: #233241;
+    scale: 1.1;
+    transition: all 0.5s ease;
+}
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.box-popups{
+    width: 432px;
+    height: 399px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#close-button-cookies{
+    margin-left: 350px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+#close-button-session{
+    margin-left: 350px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+#img-cookies{
+    margin-top: -50px;
+}
+
+#img-session{
+    margin-top: -40px;
+}
+
+#cookies-text{
+    width: 320px;
+    margin-top: -20px;
+}
+
+#session-text{
+    width: 200px;
+    margin-top: -30px;
+}
